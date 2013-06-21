@@ -1,0 +1,3 @@
+[submodule "type-checking-dsl/staticbuilder"]
+	path = type-checking-dsl/staticbuilder
+	url = git@github.com:melix/staticbuilder.git
