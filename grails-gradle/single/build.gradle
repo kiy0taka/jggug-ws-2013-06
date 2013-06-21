@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        maven { url 'http://repo.grails.org/grails/repo' }
+    }
+    dependencies {
+        classpath 'org.grails:grails-gradle-plugin:2.0.0-SNAPSHOT'
+    }
+}
+
+repositories {
+    maven { url 'http://repo.grails.org/grails/repo' }
+}
+
+apply plugin: 'grails'
+
+version '1.0'
+group = 'gr8conf'
+
+grails {
+    grailsVersion = '2.2.2'
+}
