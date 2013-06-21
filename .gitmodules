@@ -1,3 +1,6 @@
 [submodule "type-checking-dsl/staticbuilder"]
 	path = type-checking-dsl/staticbuilder
 	url = git@github.com:melix/staticbuilder.git
+[submodule "ratpack/example-ratpack-gradle-groovy-app"]
+	path = ratpack/example-ratpack-gradle-groovy-app
+	url = git@github.com:ratpack/example-ratpack-gradle-groovy-app.git
