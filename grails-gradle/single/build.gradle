@@ -26,3 +26,15 @@ dependencies {
             "org.grails.plugins:jquery:1.8.3",
             "org.apache.commons:commons-lang3:3.1"
 }
+
+import org.grails.gradle.plugin.GrailsTask
+
+task unitTest(type: GrailsTask) {
+    command 'test-app'
+    args 'unit:'
+}
+
+task integTest(type: GrailsTask) {
+    command 'test-app'
+    args 'integration:'
+}
