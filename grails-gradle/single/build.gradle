@@ -19,3 +19,7 @@ group = 'gr8conf'
 grails {
     grailsVersion = '2.2.2'
 }
+
+dependencies {
+    compile "org.grails:grails-plugin-tomcat:$grails.grailsVersion"
+}
